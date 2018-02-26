@@ -10,6 +10,9 @@ import BarChart from './BarChart'
 import LineChart from './LineChart'
 import Table from './Table'
 import data from './data/dummy.json'
+
+import './App.css'
+
 class App extends Component {
 
   static propTypes = {

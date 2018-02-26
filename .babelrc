@@ -1,13 +1,6 @@
 {
-  "presets": [ "env", "react" ],
+  "presets": [ "env", "react", "es2015", "stage-0" ],
   "plugins": [
-    [
-      "css-modules-transform", {
-        "generateScopedName": "[name]__[local]___[hash:base64:5]",
-        "extensions": [".css"],
-        "extractCss": "./dist/donut.css"
-      }
-    ],
     "react-hot-loader/babel",
     "transform-class-properties"
   ]
