@@ -1,0 +1,90 @@
+{		
+    "comparison": [		
+        {		
+            "tenant_name": "Lemontecho",		
+            "category_name": "SOCIO",		
+            "raw_category": "Socio",		
+            "country": "CL",		
+            "period_detail": "1-2018",		
+            "working_days": 24,		
+            "billed_duration": 1,		
+            "billable_duration": 1.5,		
+            "standard_rate": 1,		
+            "billed_rate": 1,		
+            "average_billed_duration": 1,		
+            "average_billable_duration": 1.66666667,		
+            "average_standard_rate": 1,		
+            "average_billed_rate": 1		
+        },		
+        {		
+            "tenant_name": "Lemontecho",		
+            "category_name": "SENIOR",		
+            "raw_category": "Asociado Senior",		
+            "country": "CL",		
+            "period_detail": "1-2018",		
+            "working_days": 24,		
+            "billed_duration": 1,		
+            "billable_duration": 1.5,		
+            "standard_rate": 1,		
+            "billed_rate": 1,		
+            "average_billed_duration": 1,		
+            "average_billable_duration": 1.5,		
+            "average_standard_rate": 1,		
+            "average_billed_rate": 1		
+        }		
+    ],		
+    "histogram": {		
+        "billed_duration": {		
+            "own": 1,		
+            "data": [		
+                [		
+                    7,		
+                    1		
+                ]		
+            ]		
+        },		
+        "standard_rate": {		
+            "own": 1,		
+            "data": [		
+                [		
+                    7,		
+                    1		
+                ]		
+            ]		
+        },		
+        "billable_duration": {		
+            "own": 1.5,		
+            "data": [		
+                [		
+                    4,		
+                    1.5		
+                ],		
+                [		
+                    2,		
+                    1.66666667		
+                ],		
+                [		
+                    1,		
+                    2.0		
+                ]		
+            ]		
+        },		
+        "billed_rate": {		
+            "own": 25.0,		
+            "data": [		
+                [		
+                    1,		
+                    20.0		
+                ],		
+                [		
+                    1,		
+                    30.0		
+                ],		
+                [		
+                    5,		
+                    1		
+                ]		
+            ]		
+        }		
+    }		
+}

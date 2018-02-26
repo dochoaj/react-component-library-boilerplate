@@ -10,16 +10,18 @@
   },
   "parserOptions": {
     "ecmaVersion": 2017,
-    "sourceType": 'module',
+    "sourceType": "module",
     "ecmaFeatures": {
-      "jsx": true,
-    },
+      "jsx": true
+    }
   },
   "plugins": [
     "react",
-    "jsx-a11y",
+    "jsx-a11y"
   ],
   "rules": {
+    "arrow-body-style": 0,
+    "semi": 0,
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "import/prefer-default-export": 0,
     "global-require": 1,
@@ -30,10 +32,6 @@
       "always"
     ],
     "no-param-reassign": 0,
-    "arrow-body-style": [
-      2,
-      "as-needed"
-    ],
     "no-underscore-dangle": 1,
     "comma-dangle": [
       2,

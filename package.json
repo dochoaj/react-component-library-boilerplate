@@ -4,10 +4,10 @@
   "description": "",
   "main": "dist/src/index.js",
   "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "BABEL_ENV=build NODE_ENV=production babel --plugins transform-react-jsx ./src/Components --out-dir ./dist",
+    "clean": "rimraf dist",
+    "build": "NODE_ENV=prod webpack --config webpack/webpack.config.js",
     "lint": "eslint src/** --color || exit 0;",
-    "dev": "BABEL_ENV=development webpack-dev-server --hot --history-api-fallback --open"
+    "dev": "NODE_ENV=dev webpack-dev-server --config webpack/webpack.config.js --hot --history-api-fallback --open"
   },
   "repository": {
     "type": "git",
@@ -21,13 +21,23 @@
   },
   "homepage": "https://github.com/wkwiatek/react-hot-loader-minimal-boilerplate#readme",
   "dependencies": {
+    "accounting": "^0.4.1",
     "babel-eslint": "^7.2.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "chart.js": "^2.7.1",
     "css-loader": "^0.28.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.5",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "^1.1.1",
+    "react-select": "^1.2.1",
+    "react-tooltip": "^3.4.0",
     "rimraf": "^2.6.1",
     "skills": "^1.0.0",
-    "style-loader": "^0.16.1"
+    "style-loader": "^0.16.1",
+    "webpack-config": "^7.5.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
