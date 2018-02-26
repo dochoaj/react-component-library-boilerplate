@@ -1,14 +1,5 @@
 {
-  "presets": [
-    [
-      "latest", {
-        "es2015": {
-          "modules": "commonjs"
-        }
-      }
-    ],
-    "react"
-  ],
+  "presets": [ "env", "react" ],
   "plugins": [
     [
       "css-modules-transform", {

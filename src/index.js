@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Donut } from './App';
+import './index.css';
 
 const settings = {
   url: 'http://donut-app.5rabbits.com/api/v1/comparison',
